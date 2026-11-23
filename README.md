@@ -1,15 +1,3 @@
----
-library_name: souris
-language:
-  - zh
-tags:
-  - qwen
-  - souris
-  - iq2_xxs
-  - mtp
-  - cuda
-  - single-file
----
 <p align="center">
   <img src="assets/souris-logo.png" alt="Souris" width="340">
 </p>
