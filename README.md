@@ -18,7 +18,7 @@ tags:
 
 <p align="center">
   在 24 GB 显卡上运行 32K 上下文的 Qwen3.8 Flash Next。<br>
-  IQ2_XXS / Q4_0 混合量化，SRS1 模型包，全 GPU 推理。
+  IQ2_XXS / Q4_0 混合量化，全 GPU 推理。
 </p>
 
 <p align="center">
