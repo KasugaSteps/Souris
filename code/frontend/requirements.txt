@@ -1,0 +1,6 @@
+fastapi==0.162.5
+starlette==1.7.0
+httpx==0.28.1
+uvicorn==0.54.0
+jsonschema==4.26.0
+Pillow==11.3.0

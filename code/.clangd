@@ -1,0 +1,14 @@
+CompileFlags:
+  CompilationDatabase: build
+  Add:
+    - -Iggml/include
+    - -Iinclude
+    - -Isrc
+    - -Wall
+    - -Wextra
+
+Index:
+  Background: Build
+
+Diagnostics:
+  UnusedIncludes: None

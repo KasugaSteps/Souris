@@ -1,0 +1,25 @@
+context = 33280
+max_prompt_tokens = 32768
+staging_mib = 1024
+read_threads = 8
+mmq_group = 16
+
+[model]
+path = "./weights/souris-iq2xxs.bin"
+
+[server]
+port = 18080
+
+[log]
+file = "./logs/souris"
+level = "info"
+
+[mtp]
+path = "./weights/mtp"
+max_drafts = 4
+
+[vision]
+mmproj = "./weights/vision/mmproj-Qwen3.8-Flash-Next-Q8_0.gguf"
+max_images = 4
+image_size = 768
+cache_entries = 8

@@ -1,0 +1,20 @@
+# Build outputs and local runtime junk only.
+# Required source code and README are tracked.
+build/
+build-*/
+cmake-build-*/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+logs/
+reports/
+benchmarks/
+dataset/
+experiment/
+.DS_Store
+.idea/
+.vscode/
+*.swp

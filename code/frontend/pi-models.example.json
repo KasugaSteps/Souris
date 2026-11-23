@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "souris": {
+      "baseUrl": "http://127.0.0.1:8080/v1",
+      "api": "openai-completions",
+      "apiKey": "local",
+      "compat": {
+        "supportsStore": false,
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false,
+        "supportsUsageInStreaming": true,
+        "supportsLongCacheRetention": false,
+        "maxTokensField": "max_tokens",
+        "sendSessionAffinityHeaders": true
+      },
+      "models": [
+        {
+          "id": "souris-iq2xxs",
+          "name": "Souris IQ2_XXS",
+          "reasoning": false,
+          "input": ["text", "image"],
+          "contextWindow": 33280,
+          "maxTokens": 512,
+          "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0}
+        }
+      ]
+    }
+  }
+}
